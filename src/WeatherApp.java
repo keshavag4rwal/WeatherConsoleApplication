@@ -12,7 +12,7 @@ public class WeatherApp {
         System.out.print("Enter the city you want to search for location:");
         String city = scanner.nextLine();
         scanner.close();
-        String apiKey = "your_api_key";
+        String apiKey = "cbd09c55b8a5da40322c6278459e89c7";
 
         try {
             URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey);
